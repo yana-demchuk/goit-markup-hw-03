@@ -39,6 +39,12 @@ button {
   border: 0;
 }
 
+.container-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 /* Шапка */
 
 .header .container {
@@ -115,7 +121,11 @@ button {
 }
 
 /* Секция-герой */
-.hero {
+
+.hero .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-color: #757579;
   height: 600px;
 }
@@ -133,10 +143,6 @@ button {
   width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
-}
-
-.hero .container {
-  display: block;
 }
 
 .button {
@@ -479,10 +485,10 @@ button {
   padding-bottom: 20px;
 }
 
-.portfolio-example-list-item:nth-child(3n) {
+/* .portfolio-example-list-item:nth-child(3n) {
   margin-right: 0;
-}
+} */
 
-.portfolio-example-list-item:nth-last-child(-n + 3) {
+/* .portfolio-example-list-item:nth-last-child(-n + 3) {
   margin-bottom: 0;
-}
+} */
