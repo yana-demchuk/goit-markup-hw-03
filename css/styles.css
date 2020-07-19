@@ -449,9 +449,9 @@ button {
   margin-left: auto;
   margin-right: auto;
 
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
-  padding-bottom: 64px;
+  padding-bottom: 94px;
 }
 
 .portfolio-example-list-item {
@@ -459,6 +459,7 @@ button {
   height: 404px;
   border: 1px solid #eeeeee;
   box-sizing: border-box;
+  margin-right: 30px;
   margin-bottom: 30px;
 }
 
@@ -472,6 +473,14 @@ button {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--first-text-color);
+}
+
+.portfolio-example-list-item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.portfolio-example-list-item:nth-last-child(-n + 3) {
+  margin-bottom: 0;
 }
 
 .portfolio-example-list-item-type {
