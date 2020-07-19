@@ -125,7 +125,6 @@ button {
 .hero .container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   background-color: #757579;
   height: 600px;
 }
